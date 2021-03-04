@@ -10,8 +10,10 @@
                 "/System/Library/Frameworks",
                 "/Library/Frameworks"
             ],
-            "cStandard": "c11",
-            "intelliSenseMode": "macos-clang-x64"
+            "cStandard": "c17",
+            "intelliSenseMode": "macos-clang-x64",
+            "cppStandard": "c++17",
+            "compilerPath": "/usr/bin/clang++"
         }
     ],
     "version": 4
