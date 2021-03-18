@@ -26,7 +26,6 @@ Clock::Clock() {
   Clock(0, 0, 0);
 }
 
-
 void Clock::setTime(int newH, int newM, int newS) {
   hour = newH;
   minute = newM;
