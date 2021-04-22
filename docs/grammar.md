@@ -1,5 +1,23 @@
+<!-- TOC -->
 
-# 语法
+- [String](#string)
+- [Function](#function)
+- [语法](#语法)
+
+<!-- /TOC -->
+
+<a id="markdown-string" name="string"></a>
+### String
+
+### Function
+
+- inline函数  
+  表示调用此函数时相当于inline函数代码在调用的代码块里, 而不是要复制参数再单独执行此函数, 从而增加内存消耗  
+  适用于比较简单的函数  
+  代码示例: <a href="../code/inlinefunction.cpp">inline function</a>
+
+<a id="markdown-语法" name="语法"></a>
+### 语法
 
 - dot. and arrow pointer->
 
@@ -13,11 +31,6 @@
   // 表示下标取i, 然后i再自减
   list[i--] = item
   ```
-
-- inline函数
-
-  表示调用此函数时相当于inline函数代码在调用的代码块里, 而不是要复制参数再单独执行此函数, 从而增加内存消耗
-
 - char*
 
   代表字符串类型
