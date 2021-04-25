@@ -9,7 +9,9 @@ inline void test(const char* title, bool value) {
 }
 
 int main() {
-  string s1 = "DEF";
+  // init string
+  // string s1 = "DEF";
+  string s1{"DEF"};
   cout << "s1 is " << s1 << endl;
   string s2;
   cout << "Please enter s2: ";

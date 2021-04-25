@@ -2,12 +2,19 @@
 
 - [String](#string)
 - [Function](#function)
-- [语法](#语法)
+- [Tips](#tips)
 
 <!-- /TOC -->
 
 <a id="markdown-string" name="string"></a>
 ### String
+
+- char* & string & char[]  
+  都代表字符串类型, 推荐用string  
+  char*更底层, 兼容C, 以及和系统交互时更好, 更节省内存  
+  string更通用, 提供了很多操作接口  
+  char[]可以修改其中某个字符, 原理和array一样  
+  参照<https://www.geeksforgeeks.org/char-vs-stdstring-vs-char-c/>
 
 ### Function
 
@@ -17,7 +24,7 @@
   代码示例: <a href="../code/inlinefunction.cpp">inline function</a>
 
 <a id="markdown-语法" name="语法"></a>
-### 语法
+### Tips
 
 - dot. and arrow pointer->
 
@@ -31,8 +38,3 @@
   // 表示下标取i, 然后i再自减
   list[i--] = item
   ```
-- char*
-
-  代表字符串类型
-
-  在函数参数里, 如果需要字符串作为参数, 可用char\*
