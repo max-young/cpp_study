@@ -18,6 +18,8 @@ class Clock {
 //   second = newS;
 // }
 
+// 两个构造函数, 支持传参数和不传参数
+
 // 构造函数的实现方式2, 推荐这种初始化方式: https://www.runoob.com/w3cnote/cpp-construct-function-initial-list.html
 Clock::Clock(int newH, int newM, int newS): hour(newH), minute(newM), second(newS) {}
 
