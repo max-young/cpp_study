@@ -8,25 +8,38 @@
 
 <https://www.youtube.com/watch?v=-erXR6k9TeE>
 
-### 配置步骤
+### 配置
 
 - 打开某文件夹, 在文件夹里会自动创建.vscode路径, 下面有配置文件
+
 - 编译器配置  
+
   创建一个.cpp文件之后, shift + command + b会编译, 会自动弹出编译器选择下拉框, 选择C/C++ clang++ build active file, 这样在.vscode路径下会多一个task.json的配置文件, 存储着编译器配置
+
 - 自动联想补全配置  
+
   shift + commnad + p, 找到C/C++: Edit Configurations (UI) , 配置Compiler path为/usr/bin/clang++, 配置IntelliSense mode为macos-clang-x64, (用户可根据实际情况配置), 这样在.vscode下会多一个c_cpp_properties.json的配置文件
 以上配置完之后就完成了一个基本的C++开发环境
+
 - debug配置  
-  - 节省编译时间
+
+  - 节省编译时间?
     我们还可以配置"preLaunchTask": "C/C++: clang++ build active file", 这样在修改代码之后进行debug时, 就自动进行了编译, 这里配置的值是task.json里的label
   - debug时需要cin输入
     我们有时候需要debug cin, 我们可以在launch.json里配置"externalConsole": true, 这样在debug时, 就会弹出terminal窗口, 提示输入(可能不会弹出, 你需要手动切换到terminal)  
   - 添加argv参数
     我们执行main时可能会要加上参数, 在`launch.json`里加上args里加上参数, 例如: `"args": ["-r", "20", "image.png"]`
 
-### 编译
+- cmake
 
-可以用vscode的编译. 也可以用cmake自行编译.
+  参照<https://code.visualstudio.com/docs/cpp/cmake-linux>  
+  cmake debug的快捷键是Ctrl + F5  
+  cmake debug with args, 可以在配置里面加.vscode/settings.json:
+  ```json
+  "cmake.debugConfig": {
+    "args": ["-r", "20", "image.png"]
+  }
+  ```
 
 ### 问题汇总
 
