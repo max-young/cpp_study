@@ -52,6 +52,7 @@
     ```
     "${workspaceFolder}/**
     ```
+    如果没有此提示, 则用shift + commnad + p, 找到C/C++: Edit Configurations (UI) 进行配置
   2. C++的自有包
     `#include <iostream>`  
     这个需要配置compiler path, 配置成:  
