@@ -21,6 +21,10 @@
   比如一些不会变的常量, 例如pi, 我们就可以用constexpr来定义:  
   `onstexpr double MY_PI = 3.1415926`
 
+- pragma once
+
+  在C和C++编程语言中，pragma once是一个非标准但被广泛支持的预处理器指令，旨在使当前源文件在一次编译中只被包含一次。因此，#pragma once的作用与include guards相同，但有几个优点，包括：代码少，避免名称冲突，有时还能提高编译速度。
+
 <a id="markdown-string" name="string"></a>
 ### String
 
