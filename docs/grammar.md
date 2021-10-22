@@ -48,12 +48,3 @@
 - dot. and arrow pointer->
 
   在自定义class只能, 我们要访问这个class的对象的某个属性, 那么用dot, 如果我们要通过这个对象的指针访问属性, 那么用arrow pointer
-
-- 左右自增自减
-
-  ```c++
-  // 表示i加1之后, 再取下标
-  list[++i] = item
-  // 表示下标取i, 然后i再自减
-  list[i--] = item
-  ```

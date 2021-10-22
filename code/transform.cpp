@@ -1,8 +1,8 @@
-#include <iostream>
-#include <array>
 // transform和python的map类型
 // 对一个迭代器的每个元素通过自定义函数进行处理, 处理结果复制给另外一个迭代器
 
+#include <iostream>
+#include <array>
 
 int main(int argc, char const *argv[])
 {

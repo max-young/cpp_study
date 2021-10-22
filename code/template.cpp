@@ -1,5 +1,5 @@
-# include <iostream>
-# include <string>
+#include <iostream>
+#include <string>
 
 // C++ Primer (Fifth Edition)
 
@@ -17,12 +17,17 @@
 // 如果不用template, 我们就需要对每一种类型都写一个compare函数, 函数的body是一样的, 返回值也都是bool, 只是函数的参数类型定义不一样
 // 这样就太繁琐且容易出错了. 我们用template可以这样实现:
 template <typename T>
-bool compare(T a, T b) {
-  if (a<b)
+int compare(const T &a, const T &b)
+{
+  if (a > b)
   {
-    return true;
-  };
-  return false;
+    return 1;
+  }
+  else if (a < b)
+  {
+    return -1;
+  }
+  return 0;
 }
 
 // template后面的<typename T>相当于函数的参数, 函数的参数会在运行时实例化, template也类似
@@ -32,50 +37,61 @@ bool compare(T a, T b) {
 
 // 我们可以使用template参数作为函数参数, 也可以作为返回值类型, 例如:
 template <typename T>
-T compare1(T a, T b) {
-  if (a < b) {
+T compare1(const T &a, const T &b)
+{
+  if (a > b)
+  {
     return a;
   }
   return b;
 }
 
 // 也可以使用多个参数:
-template<typename T, typename U> T calc(const T&, const U&);
+template <typename T, typename U>
+T calc(const T &, const U &);
 
 // NonNontype template parameters
-// 用unsigned开头, 函数的参数必须是const常量, 且需是引用
-// 不太能get到应用场景, 而且觉得很麻烦, 直接传char p1[], char p2[]不好吗?
-template<unsigned N, unsigned M>
-int compare2(const char (&p1)[N], const char (&p2)[M]) {
+// 用unsigned开头
+// 应用在指定参数的size的情况下
+template <unsigned N, unsigned M>
+int compareStr(const char (&p1)[N], const char (&p2)[M])
+{
   return strcmp(p1, p2);
 }
 
+// inline
+template <typename T> inline T min(const T&, const T&);
 
-int main() {
-  int a = 1, b=2;
+
+// 在上面的函数里, 参数都是变量的const reference(引用), 原因有二, 一是兼容不能复制的类型, 二是效率更高
+
+// template函数写在头文件里
+
+
+int main()
+{
+  int a = 1, b = 2;
+  float af = 1.5, bf = 2.9;
+  std::string as{"a"}, bs{"b"};
+
   std::cout << a << " " << b << std::endl;
   std::cout << compare(a, b) << std::endl;
-  float af = 1.5, bf=2.9;
   std::cout << af << " " << bf << std::endl;
   std::cout << compare(af, bf) << std::endl;
-  std::string as{"a"}, bs{"b"};
   std::cout << as << " " << bs << std::endl;
   std::cout << compare(as, bs) << std::endl;
 
   std::cout << "----------" << std::endl;
 
-  int a1 = 1, b1=2;
-  std::cout << a1 << " " << b1 << std::endl;
+  std::cout << a << " " << b << std::endl;
   std::cout << compare1(a, b) << std::endl;
-  float af1 = 1.5, bf1=2.9;
-  std::cout << af1 << " " << bf1 << std::endl;
-  std::cout << compare1(af1, bf1) << std::endl;
-  std::string as1{"a"}, bs1{"b"};
-  std::cout << as1 << " " << bs1 << std::endl;
-  std::cout << compare1(as1, bs1) << std::endl;
+  std::cout << af << " " << bf << std::endl;
+  std::cout << compare1(af, bf) << std::endl;
+  std::cout << as << " " << bs << std::endl;
+  std::cout << compare1(as, bs) << std::endl;
 
   std::cout << "----------" << std::endl;
-  std::cout << compare2("hi", "mom") << std::endl;
+  std::cout << compareStr("hi", "mom") << std::endl;
 
   return 0;
 }
