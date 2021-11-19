@@ -7,10 +7,10 @@ int main() {
    std::cout << "model is:" << std::endl << model << std::endl;
 
    Eigen::Matrix4f model1 {
-     {1, 2, 3, 0},
-     {0, 1, 0, 0},
-     {0, 0, 1, 0},
-     {0, 0, 0, 1}
+     {1, 0, 0, 0},
+     {1, 1.0/3.0, 0, 0},
+     {1, 2.0/3.0, 1.0/3.0, 0},
+     {1, 1, 1, 1}
    };
 
    std::cout << "model1 is:" << std::endl << model1 << std::endl;
@@ -25,6 +25,7 @@ int main() {
    Eigen::Vector3f v1{3, 4, 5};
    std::cout << "v * 2 is:" << std::endl << v * 2 << std::endl;
    std::cout << "v + v1 is:" << std::endl << v + v1 << std::endl;
+   std::cout << "v * v1 is:" << std::endl << v.cwiseProduct(v1) << std::endl;
 
    Eigen::Vector3f color[] = {
     {0.580392182, 0.474509805, 0.360784322},
