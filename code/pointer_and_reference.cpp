@@ -62,7 +62,7 @@ int main()
   int i;
   // i加上&代表i的引用, 也就是它的内存地址(指针)
   // int* 代表int类型的指针, ptr就是指针类型
-  int *ptr = &i;
+  int* ptr = &i;
   i = 10;
   cout << "i = " << i << endl;
   // ptr前面加上*ptr就代表ptr这个指针指向的值, 也就是i

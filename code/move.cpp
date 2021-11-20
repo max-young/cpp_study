@@ -1,33 +1,30 @@
-# include <iostream>
-using namespace std;
+#include <iomanip>
+#include <iostream>
+#include <utility>
+#include <vector>
+#include <string>
 
-class IntNum {
-  public:
-    IntNum(int x=0): xptr(new int(x)) { // 构造函数
-      cout << "Calling constructor..." << endl;
-    }
-    IntNum(const IntNum & n): xptr(new int(*n.xptr)) { // 复制构造函数
-      cout << "Calling copy constructor..." << endl;
-    }
-    IntNum(IntNum && n): xptr(n.xptr) { // 移动构造函数
-      n.xptr = nullptr;
-      cout << "Calling move constructor..." << endl;
-    }
-    ~IntNum() {
-      delete xptr;
-      cout << "Destructing..." << endl;
-    }
-    int getInt() {return *xptr;}
-  private:
-    int* xptr;
-};
-
-IntNum getNum() {
-  IntNum a;
-  return a;
-}
-
-int main() {
-  cout << getNum().getInt() << endl;
-  return 0;
+// https://stackoverflow.com/questions/3413470/what-is-stdmove-and-when-should-it-be-used
+// 在下面我们定义了一个str, 我们将std::move(str)推到vector里面, str这个lvalue就没有了
+// 这样避免了大量的临时对象的产生
+ 
+int main()
+{
+    std::string str = "Salut";
+    std::vector<std::string> v;
+ 
+    // uses the push_back(const T&) overload, which means 
+    // we'll incur the cost of copying str
+    v.push_back(str);
+    std::cout << "After copy, str is " << str << '\n';
+ 
+    // uses the rvalue reference push_back(T&&) overload, 
+    // which means no strings will be copied; instead, the contents
+    // of str will be moved into the vector.  This is less
+    // expensive, but also means str might now be empty.
+    v.push_back(std::move(str));
+    std::cout << "After move, str is " << str << '\n';
+ 
+    std::cout << "The contents of the vector are { " << std::quoted(v[0])
+                                             << ", " << std::quoted(v[1]) << " }\n";
 }
