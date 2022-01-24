@@ -74,8 +74,8 @@ int main()
 
   std::cout << "----------" << std::endl;
 
-  reference();
-  // pointer();
+  // reference();
+  pointer();
 
   return 0;
 }

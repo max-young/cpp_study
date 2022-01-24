@@ -21,6 +21,7 @@ class Clock {
 // 两个构造函数, 支持传参数和不传参数
 
 // 构造函数的实现方式2, 推荐这种初始化方式: https://www.runoob.com/w3cnote/cpp-construct-function-initial-list.html
+// 对于内置类型, 方式1和2是一样的, 对于非内置类型, 推荐2, 避免二次构造
 Clock::Clock(int newH, int newM, int newS): hour(newH), minute(newM), second(newS) {}
 
 // 构造函数的实现
