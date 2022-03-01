@@ -10,18 +10,19 @@
   <!-- latex -->
   <script src="https://cdn.jsdelivr.net/npm/katex-copytex@1.0.2/dist/katex-copytex.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/katex-copytex@1.0.2/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+  <!-- sidebar css -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" /> -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
 </head>
 <body>
-  <nav>
-    <a href="https://max-young.github.io/">博客首页</a>
-  </nav>
   <div id="app"></div>
   <!-- latex -->
   <!-- <script>window.texme = { style: 'none' }</script>
   <script src="https://cdn.jsdelivr.net/npm/texme@0.9.0"></script> -->
   <script>
     window.$docsify = {
-      name: 'C++',
+      name: 'C++学习笔记',
+      repo: "max-young/cpp_study",
       loadSidebar: true,
       subMaxLevel: 3,
       search: {
@@ -32,6 +33,7 @@
         },
       // load from _footer.md
       loadFooter: true,
+      sidebarDisplayLevel: 1
     }
   </script>
   <!-- latex -->
@@ -42,5 +44,7 @@
   <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
   <!-- using the footer plugin from CDN -->
   <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
+  <!-- sidebar -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 </body>
 </html>

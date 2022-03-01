@@ -1,18 +1,15 @@
 <!-- TOC -->
 
-- [container](#container)
-  - [vector](#vector)
-  - [其他](#%E5%85%B6%E4%BB%96)
+- [initialize初始化](#initialize初始化)
+- [其他](#其他)
 
 <!-- /TOC -->
 
-stl: standard template library
+stl: standard template library标准模板库
 
-### container
 
-#### vector
-
-- initialize初始化  
+<a id="markdown-initialize初始化" name="initialize初始化"></a>
+#### initialize初始化  
   下面的代码列举了两种初始化方式:
 
   ```C++
@@ -22,6 +19,7 @@ stl: standard template library
   }
   ```
 
+<a id="markdown-其他" name="其他"></a>
 #### 其他
 
 - vector and list  
@@ -36,3 +34,5 @@ stl: standard template library
   ```C++
   copy(s.begin(), s.end(), ostream_iterator<int>(cout, " "))
   ```
+
+示例代码: <a href='code/stl/stl_container1.cpp'>vector</a>

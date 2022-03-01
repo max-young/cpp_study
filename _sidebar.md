@@ -1,3 +1,7 @@
-* [vscode](./docs/vscode.md)
-* [grammar](./docs/grammar.md)
-* [stl](./docs/stl.md)
+- Getting Started
+  - [vscode](docs/vscode.md)
+- The Basics
+  - [grammar](docs/grammar.md)
+- The C++ Library
+  - Sequential Containers
+    - [vector](docs/stl-vector.md)
