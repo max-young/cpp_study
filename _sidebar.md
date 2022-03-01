@@ -6,3 +6,5 @@
 - The C++ Library
   - Sequential Containers
     - [vector](docs/stl-vector.md)
+  - Associative Containers
+    - [map](docs/stl-map.md)
