@@ -1,5 +1,6 @@
 - Getting Started
-  - [vscode](docs/vscode.md)
+  - [vscode config](docs/vscode.md)
+  - [compile and debug](docs/C++编译compile与调试debug.md)
 - The Basics
   - [grammar](docs/grammar.md)
 - The C++ Library

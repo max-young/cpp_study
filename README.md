@@ -1,5 +1,5 @@
 > hello, 我是max  
-> 我的主页是: <https://maxyoung.fun/>
+> 我的主页: <https://maxyoung.fun/>
 
 #### 一. 学习资料
 
