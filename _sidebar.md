@@ -5,6 +5,8 @@
   - Variables and Basic Types
     - [pointer and reference as args](docs/pointer_and_reference_as_args.md)
     - [grammar](docs/grammar.md)
+  - Strings, Vectors, and Arrays
+    - [Arrays](docs/arrays.md)
 - The C++ Library
   - Sequential Containers
     - [vector](docs/stl-vector.md)
