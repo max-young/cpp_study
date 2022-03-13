@@ -6,6 +6,7 @@
     - [pointer and reference as args](docs/pointer_and_reference_as_args.md)
     - [grammar](docs/grammar.md)
   - Strings, Vectors, and Arrays
+    - [Library string Type](docs/library_string_type.md)
     - [Arrays](docs/arrays.md)
 - The C++ Library
   - Sequential Containers

@@ -2,7 +2,6 @@
 
 - [文件结构](#文件结构)
 - [声明](#声明)
-- [String](#string)
 - [Function](#function)
 - [Tips](#tips)
 
@@ -24,16 +23,6 @@
 - pragma once
 
   在C和C++编程语言中，pragma once是一个非标准但被广泛支持的预处理器指令，旨在使当前源文件在一次编译中只被包含一次。因此，#pragma once的作用与include guards相同，但有几个优点，包括：代码少，避免名称冲突，有时还能提高编译速度。
-
-<a id="markdown-string" name="string"></a>
-### String
-
-- char* & string & char[]  
-  都代表字符串类型, 推荐用string  
-  char*更底层, 兼容C, 以及和系统交互时更好, 更节省内存  
-  string更通用, 提供了很多操作接口  
-  char[]可以修改其中某个字符, 原理和array一样  
-  参照<https://www.geeksforgeeks.org/char-vs-stdstring-vs-char-c/>
 
 ### Function
 
