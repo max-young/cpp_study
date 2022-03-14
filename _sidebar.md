@@ -9,6 +9,8 @@
   - Strings, Vectors, and Arrays
     - [Library string Type](docs/library_string_type.md)
     - [Arrays](docs/arrays.md)
+  - Expressions
+    - [Type Conversions](docs/type_conversions.md)
 - The C++ Library
   - Sequential Containers
     - [vector](docs/stl-vector.md)
