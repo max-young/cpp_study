@@ -7,7 +7,7 @@
     - [grammar](docs/grammar.md)
     - [preprocessor](docs/preprocessor.md)
   - Strings, Vectors, and Arrays
-    - [Library string Type](docs/library_string_type.md)
+    - [Library string Type](docs/字符和字符串.md)
     - [Arrays](docs/arrays.md)
   - Expressions
     - [Type Conversions](docs/type_conversions.md)
