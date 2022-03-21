@@ -29,6 +29,35 @@ void plusPlus()
   std::cout << i++ << std::endl;
   // 但是执行完上面的语句之后, c变成了2, 这里cout出来是2
   std::cout << i << std::endl;
+
+  std::cout << "------------------" << std::endl;
+
+  for (int i = 0; i < 10; ++i)
+  {
+    std::cout << i << std::endl;
+  }
+
+  std::cout << "------------------" << std::endl;
+
+  i = 0;
+  while (i < 10)
+  {
+    std::cout << i++ << std::endl;
+  }
+
+  std::cout << "------------------" << std::endl;
+  
+  std::string s = "hello";
+  auto si = s.begin();
+  while (si != s.end())
+  {
+    std::cout << *si << std::endl;
+    ++si;
+  }
+
+  i = 0;
+  i++;
+  std::cout << i << std::endl;
 }
 
 int main(int argc, char const *argv[])

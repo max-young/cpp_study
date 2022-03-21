@@ -11,6 +11,7 @@
     - [Arrays](docs/arrays.md)
   - Expressions
     - [Type Conversions](docs/type_conversions.md)
+    - [Increment and Decrement Operators](docs/increment_and_decrement_operators.md)
 - The C++ Library
   - Sequential Containers
     - [vector](docs/stl-vector.md)
