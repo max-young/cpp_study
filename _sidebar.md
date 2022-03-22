@@ -9,9 +9,11 @@
   - Strings, Vectors, and Arrays
     - [Library string Type](docs/字符和字符串.md)
     - [Arrays](docs/arrays.md)
-  - Expressions
+  - Expressions表达式
     - [Type Conversions](docs/type_conversions.md)
     - [Increment and Decrement Operators](docs/increment_and_decrement_operators.md)
+  - Functions函数
+    - [Features for Specialized Uses](docs/features_for_specialized_uses.md)
 - The C++ Library
   - Sequential Containers
     - [vector](docs/stl-vector.md)
