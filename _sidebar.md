@@ -1,8 +1,9 @@
-- Getting Started
+- Chapter 1. Getting Started
   - [vscode config](docs/vscode.md)
   - [compile and debug](docs/C++编译compile与调试debug.md)
-- The Basics
-  - Variables and Basic Types
+- Part Ⅰ: The Basics
+  - Chapter 2. Variables and Basic Types
+    - [2.1. Primitive Built-in Types](docs/2.1.primitive_built_in_types.md)
     - [pointer and reference as args](docs/pointer_and_reference_as_args.md)
     - [grammar](docs/grammar.md)
     - [preprocessor](docs/preprocessor.md)
