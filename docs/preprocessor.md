@@ -5,11 +5,17 @@
 
 <!-- /TOC -->
 
+before C++ file be compiled, must do processing.  
+processor deal with the headers(`#include`) and macros宏(`#define`) and other proprocessor directives.  
+replace `#include` with the content of the respective file.  
+selecting different text depending on `#ifdef` and `#ifndef` directives.  
+output a temporary file.
+
 <a id="markdown-header-guards" name="header-guards"></a>
 #### header guards
 
 我们在写.h头文件的时候, 为了防止这个头文件背重复include, 我们可以这样写头文件:
-```C++
+```cpp
 #ifndef SALES_DATA_H
 #define SALES_DATA_H
 #include <string>
@@ -20,6 +26,7 @@ struct Sales_data {
 };
 #endif
 ```
+`#define` defines a preprocessor variable.  
 如果其他文件第一次include这个头文件, 那么SALES_DATA_H没有被定义过, 那么第一句判断为true, 执行下面的语句  
 之后其他地方的include就好判断为false, 不再重复执行.
 
@@ -34,8 +41,8 @@ struct Sales_data {
 <a id="markdown-ifdef" name="ifdef"></a>
 #### ifdef
 
-ifdef还可以用于其他场景, 例如不同平台的编译, 如果对于maxos平台需要额外执行一些代码, 那么可以这样写:
-```c++
+ifdef还可以用于其他场景, 例如不同平台的编译, 如果对于macos平台需要额外执行一些代码, 那么可以这样写:
+```cpp
 #ifdef __APPLE__
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 #endif

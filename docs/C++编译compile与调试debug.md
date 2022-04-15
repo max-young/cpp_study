@@ -1,6 +1,8 @@
 <!-- TOC -->
 
-- [编译compile](#编译compile)
+- [compile](#compile)
+  - [compile process](#compile-process)
+  - [execute compile](#execute-compile)
 - [调试debug](#调试debug)
 - [CMAKE](#cmake)
   - [编译流程](#编译流程)
@@ -10,9 +12,31 @@
 <!-- /TOC -->
 
 <a id="markdown-编译compile" name="编译compile"></a>
-### 编译compile
+### compile
 
-c++文件需要编译才能执行  
+#### compile process
+
+<img src="_images/compile_process.webp" width=70%>
+
+there are 4 steps:
+1. Preprocessing.
+   preprocess the source code, replace #include with the content of the respective file and select different text depending on #ifdef and #ifndef directives. more details in [preprocessor](docs/preprocessor.md).  
+   output is temporary file.
+2. Compilation.
+   the compiler parse the C++ source file and converts it into assembly code汇编语言. assembly code is a low-level programming language, one statement per machine struction.  
+   output is assembler file.
+3. Assemling.
+   the assembler convert the assembly code into machine code.  
+   output object file.
+4. Linking.
+   link references with other object file or library.  
+   output a library or an executable.
+
+References:  
+<https://riptutorial.com/cplusplus/example/26378/the-cplusplus-compilation-process>
+
+#### execute compile
+
 编译器有g++, clang++, 分别是gcc和llvm project支持c++的编译器  
 mac下推荐使用clang++, Linux下使用g++, 可以自行搜索g++和clang++的区别  
 

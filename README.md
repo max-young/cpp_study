@@ -1,5 +1,6 @@
-> hello, 我是max  
-> 我的主页: <https://maxyoung.fun/>
+# C++ Study Notes
+
+> hello, I'm <a href="https://maxyoung.fun/">Max Young</a>
 
 #### 一. 学习资料
 
@@ -7,7 +8,6 @@
 - [C++语言程序设计基础](https://www.xuetangx.com/course/THU08091000247/10322314)
 
 **书籍**
-- [C++ Primer 中文版（第 5 版）](https://book.douban.com/subject/25708312/)
 - [C++ Primer](https://book.douban.com/subject/10505113/)
 
 #### 二. 说明
