@@ -15,8 +15,13 @@
     - [Increment and Decrement Operators](docs/increment_and_decrement_operators.md)
   - Functions函数
     - [Features for Specialized Uses](docs/features_for_specialized_uses.md)
-- The C++ Library
+  - [Chapter 7. Classes](docs/7.classes.md)
+- Part Ⅱ: The C++ Library
   - Sequential Containers
     - [vector](docs/stl-vector.md)
   - Associative Containers
     - [map](docs/stl-map.md)
+- Part Ⅲ: Tools for Class Authors
+  - Chapter 15. Object-Oriented Programming
+    - [15.1. OOP: An Overview](docs/15.1.oop_an_overview.md)
+    - [15.3. Virtual Functions](docs/virtual_functions.md)

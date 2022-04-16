@@ -6,7 +6,7 @@ class Clock {
     Clock();
     Clock(int newH, int newM, int newS);
     void setTime(int newH = 0, int newM = 0, int newS = 0);
-    void showTime();
+    void showTime() const;
   private:
     int hour, minute, second;
 };
