@@ -4,13 +4,17 @@
 
 #### 一. 学习资料
 
-**在线课程**
+**Online Chinese Course**
 - [C++语言程序设计基础](https://www.xuetangx.com/course/THU08091000247/10322314)
 
-**书籍**
+**Bookd**
 - [C++ Primer](https://book.douban.com/subject/10505113/)
 
-#### 二. 说明
+**Others**
+
+- [Geeks for Geeks](https://www.geeksforgeeks.org/c-plus-plus/)
+
+#### 二. Description
 
 - 文档说明
 
