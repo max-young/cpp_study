@@ -9,8 +9,8 @@
     - [grammar](docs/grammar.md)
     - [preprocessor](docs/preprocessor.md)
   - Chapter 3. Strings, Vectors, and Arrays
-    - [Library string Type](docs/字符和字符串.md)
-    - [Arrays](docs/arrays.md)
+    - [Library string Type](docs/chapter_3_strings_vectors_and_arrays/字符和字符串.md)
+    - [Arrays](docs/chapter_3_strings_vectors_and_arrays/arrays.md)
   - Chapter 4. Expressions
     - [Type Conversions](docs/type_conversions.md)
     - [Increment and Decrement Operators](docs/increment_and_decrement_operators.md)
@@ -21,6 +21,7 @@
     - [const member function](docs/chapter_7_classes/const_member_function.md)
     - [constexpr constructor](docs/chapter_7_classes/constexpr_constructor.md)
     - [destructor](docs/chapter_7_classes/destructor.md)
+    - [Static Class Members](docs/chapter_7_classes/static_class_members.md)
 - Part Ⅱ: The C++ Library
   - Sequential Containers
     - [vector](docs/stl-vector.md)
