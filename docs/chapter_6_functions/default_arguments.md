@@ -1,12 +1,3 @@
-<!-- TOC -->
-
-- [default argument](#default-argument)
-
-<!-- /TOC -->
-
-<a id="markdown-default-argument" name="default-argument"></a>
-#### default argument
-
 函数可以先声明再在其他位置定义具体的函数内容.  
 默认参数最好在声明的时候就指定, 不能重复指定.  
 例如, 声明时指定了一个默认参数:  

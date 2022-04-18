@@ -4,18 +4,23 @@
 - Part Ⅰ: The Basics
   - Chapter 2. Variables and Basic Types
     - [2.1. Primitive Built-in Types](docs/2.1.primitive_built_in_types.md)
+    - [2.4. const Qualifier限定符](docs/chapter_2_viariables_and_basic_types/const_qualifier.md)
     - [pointer and reference as args](docs/pointer_and_reference_as_args.md)
     - [grammar](docs/grammar.md)
     - [preprocessor](docs/preprocessor.md)
-  - Strings, Vectors, and Arrays
+  - Chapter 3. Strings, Vectors, and Arrays
     - [Library string Type](docs/字符和字符串.md)
     - [Arrays](docs/arrays.md)
-  - Expressions表达式
+  - Chapter 4. Expressions
     - [Type Conversions](docs/type_conversions.md)
     - [Increment and Decrement Operators](docs/increment_and_decrement_operators.md)
-  - Functions函数
-    - [Features for Specialized Uses](docs/features_for_specialized_uses.md)
-  - [Chapter 7. Classes](docs/7.classes.md)
+  - Chapter 6. Functions
+    - [Features for Specialized Uses](docs/chapter_6_functions/default_arguments.md)
+    - [Local static Objects](docs/chapter_6_functions/local_static_objects.md)
+  - Chapter 7. Classes
+    - [const member function](docs/chapter_7_classes/const_member_function.md)
+    - [constexpr constructor](docs/chapter_7_classes/constexpr_constructor.md)
+    - [destructor](docs/chapter_7_classes/destructor.md)
 - Part Ⅱ: The C++ Library
   - Sequential Containers
     - [vector](docs/stl-vector.md)

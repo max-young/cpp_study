@@ -1,13 +1,3 @@
-<!-- TOC -->
-
-- [const member function](#const-member-function)
-- [destructor](#destructor)
-
-<!-- /TOC -->
-
-<a id="markdown-const-member-function" name="const-member-function"></a>
-### const member function
-
 we can see class code like:
 ```cpp
 class Foo {
@@ -88,32 +78,3 @@ int main() {
 ```
 complete code: <a href="code/const_member_function.cpp">const_member_function.cpp</a>  
 another example: <a href="code/constclassfunc.cpp">const class func</a>
-
-### destructor
-
-c++ has default destructor.  
-if class constructor use new to allocate memory, wo should define a destructor to free the memory.  
-for example:
-```cpp
-class String {
-  private:
-    char* s;
-    int size;
-  public:
-    String(char*);
-    ~String();
-};
-
-String:String(char* c)
-{
-  size = strlen(c);
-  s = new char[size + 1];
-  strcpy(s, c);
-}
-
-String::~String()
-{
-  delete[] s;
-}
-```
-reference: <https://www.geeksforgeeks.org/destructors-c/>
