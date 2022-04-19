@@ -31,3 +31,5 @@
   - Chapter 15. Object-Oriented Programming
     - [15.1. OOP: An Overview](docs/15.1.oop_an_overview.md)
     - [15.3. Virtual Functions](docs/virtual_functions.md)
+- Part Ⅳ: Advanced Topics
+  - [Concurrency](docs/concurrency.md)

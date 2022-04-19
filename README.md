@@ -2,13 +2,14 @@
 
 > hello, I'm <a href="https://maxyoung.fun/">Max Young</a>
 
-#### 一. 学习资料
+#### References
 
-**Online Chinese Course**
+**Online Course**
 - [C++语言程序设计基础](https://www.xuetangx.com/course/THU08091000247/10322314)
 
-**Bookd**
+**Books**
 - [C++ Primer](https://book.douban.com/subject/10505113/)
+- [C++ Concurrency in Action](https://book.douban.com/subject/27036085/)
 
 **Others**
 
