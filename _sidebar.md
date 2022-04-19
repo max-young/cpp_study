@@ -12,7 +12,7 @@
     - [Library string Type](docs/chapter_3_strings_vectors_and_arrays/字符和字符串.md)
     - [Arrays](docs/chapter_3_strings_vectors_and_arrays/arrays.md)
   - Chapter 4. Expressions
-    - [Type Conversions](docs/type_conversions.md)
+    - [Type Conversions](docs/chapter_4_expressions/type_conversions.md)
     - [Increment and Decrement Operators](docs/increment_and_decrement_operators.md)
   - Chapter 6. Functions
     - [Features for Specialized Uses](docs/chapter_6_functions/default_arguments.md)

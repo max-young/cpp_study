@@ -1,7 +1,6 @@
 <!-- TOC -->
 
 - [文件结构](#文件结构)
-- [声明](#声明)
 - [Function](#function)
 - [Tips](#tips)
 
@@ -12,13 +11,6 @@
 - .hpp .h
   都是头文件, 可以定义命名空间, 将一些常量等放在头文件里  
   .h兼容c, 如果只有C++, 用.hpp即可
-
-### 声明
-
-- constexpr
-  常量表达式, 编译时会检查是否是常量表达式.  
-  比如一些不会变的常量, 例如pi, 我们就可以用constexpr来定义:  
-  `onstexpr double MY_PI = 3.1415926`
 
 ### Function
 
