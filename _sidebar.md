@@ -28,6 +28,7 @@
     - [Static Class Members](docs/chapter_7_classes/static_class_members.md)
   - Chapter 10. Generic Algorithms通用算法
     - [10.1. Overview](docs/chapter_10_generic_algorithms/10.1.overview.md)
+    - [10.2. A First Look at the Algorithms](docs/chapter_10_generic_algorithms/10.2.a_first_look_at_the_algorithms.md)
     - [10.3. Customizing Operations](docs/chapter_10_generic_algorithms/10.3.customizing_operations.md)
 - Part Ⅱ: The C++ Library
   - Associative Containers
