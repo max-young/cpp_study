@@ -1,29 +1,31 @@
 {
-  "tasks": [
-    {
-      "type": "cppbuild",
-      "label": "C/C++: clang++ build active file",
-      "command": "/usr/bin/clang++",
-      "args": [
-        "-std=c++17",
-        "-stdlib=libc++",
-        "-g",
-        "${file}",
-        "-o",
-        "./build/${fileBasenameNoExtension}"
-      ],
-      "options": {
-        "cwd": "${workspaceFolder}"
-      },
-      "problemMatcher": [
-        "$gcc"
-      ],
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: clang++ build active file",
+			"command": "/usr/bin/clang++",
+			"args": [
+				"-std=c++17",
+				"-stdlib=libc++",
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${workspaceFolder}/build/${fileBasenameNoExtension}"
+			],
+			"options": {
+				// "cwd": "${fileDirname}"
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
       "group": {
         "kind": "build",
         "isDefault": true
       },
-      "detail": "compiler: /usr/bin/clang++"
-    }
-  ],
-  "version": "2.0.0"
+			"detail": "compiler: /usr/bin/clang++"
+		}
+	]
 }

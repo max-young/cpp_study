@@ -3,15 +3,19 @@
   - [compile and debug](docs/C++编译compile与调试debug.md)
 - Part Ⅰ: The Basics
   - Chapter 2. Variables and Basic Types
-    - [2.1. Primitive Built-in Types](docs/2.1.primitive_built_in_types.md)
-    - [2.4. const Qualifier限定符](docs/chapter_2_viariables_and_basic_types/const_qualifier.md)
+    - [2.1. Primitive Built-in Types原始内置类型](docs/chapter_2_viariables_and_basic_types/2.1.primitive_built_in_types.md)
+    - [2.3. Compound Types复合类型](docs/chapter_2_viariables_and_basic_types/2.3.compound_types(reference_and_pointer).md)
+    - [2.4. const Qualifier限定符](docs/chapter_2_viariables_and_basic_types/2.4.const_qualifier.md)
     - [pointer and reference as args](docs/pointer_and_reference_as_args.md)
     - [grammar](docs/grammar.md)
     - [preprocessor](docs/preprocessor.md)
   - Chapter 3. Strings, Vectors, and Arrays
-    - [Library string Type](docs/chapter_3_strings_vectors_and_arrays/字符和字符串.md)
-    - [Arrays](docs/chapter_3_strings_vectors_and_arrays/arrays.md)
+    - [3.2. Library string Type](docs/chapter_3_strings_vectors_and_arrays/3.2.字符和字符串.md)
+    - [3.3. Library vector Type](docs/chapter_3_strings_vectors_and_arrays/3.3.library_vector_type.md)
+    - [3.4. Introducing Iterators](docs/chapter_3_strings_vectors_and_arrays/3.4.introducing_iterators.md)
+    - [3.5. Arrays](docs/chapter_3_strings_vectors_and_arrays/3.5.arrays.md)
   - Chapter 4. Expressions
+    - [4.1. Fundamentals](docs/chapter_4_expressions/fundamentals.md)
     - [Type Conversions](docs/chapter_4_expressions/type_conversions.md)
     - [Increment and Decrement Operators](docs/increment_and_decrement_operators.md)
   - Chapter 6. Functions
@@ -22,9 +26,10 @@
     - [constexpr constructor](docs/chapter_7_classes/constexpr_constructor.md)
     - [destructor](docs/chapter_7_classes/destructor.md)
     - [Static Class Members](docs/chapter_7_classes/static_class_members.md)
+  - Chapter 10. Generic Algorithms通用算法
+    - [10.1. Overview](docs/chapter_10_generic_algorithms/10.1.overview.md)
+    - [10.3. Customizing Operations](docs/chapter_10_generic_algorithms/10.3.customizing_operations.md)
 - Part Ⅱ: The C++ Library
-  - Sequential Containers
-    - [vector](docs/stl-vector.md)
   - Associative Containers
     - [map](docs/stl-map.md)
 - Part Ⅲ: Tools for Class Authors
