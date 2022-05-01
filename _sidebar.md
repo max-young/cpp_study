@@ -10,6 +10,7 @@
     - [grammar](docs/grammar.md)
     - [preprocessor](docs/preprocessor.md)
   - Chapter 3. Strings, Vectors, and Arrays
+    - [3.1. Namespace using Declarations](docs/chapter_3_strings_vectors_and_arrays/3.1.namespace_using_declarations.md)
     - [3.2. Library string Type](docs/chapter_3_strings_vectors_and_arrays/3.2.字符和字符串.md)
     - [3.3. Library vector Type](docs/chapter_3_strings_vectors_and_arrays/3.3.library_vector_type.md)
     - [3.4. Introducing Iterators](docs/chapter_3_strings_vectors_and_arrays/3.4.introducing_iterators.md)
@@ -19,19 +20,21 @@
     - [Type Conversions](docs/chapter_4_expressions/type_conversions.md)
     - [Increment and Decrement Operators](docs/increment_and_decrement_operators.md)
   - Chapter 6. Functions
-    - [Features for Specialized Uses](docs/chapter_6_functions/default_arguments.md)
+    - [6.5. Features for Specialized Uses](docs/chapter_6_functions/6.5.features_for_specialized_uses.md)
     - [Local static Objects](docs/chapter_6_functions/local_static_objects.md)
   - Chapter 7. Classes
     - [const member function](docs/chapter_7_classes/const_member_function.md)
     - [constexpr constructor](docs/chapter_7_classes/constexpr_constructor.md)
     - [destructor](docs/chapter_7_classes/destructor.md)
     - [Static Class Members](docs/chapter_7_classes/static_class_members.md)
+- Part Ⅱ: The C++ Library
+  - Chapter 9. Sequential Containers
+    - [9.2. Container Library Overview](docs/chapter_9_sequential_containers/9.2.container_library_overview.md)
   - Chapter 10. Generic Algorithms通用算法
     - [10.1. Overview](docs/chapter_10_generic_algorithms/10.1.overview.md)
     - [10.2. A First Look at the Algorithms](docs/chapter_10_generic_algorithms/10.2.a_first_look_at_the_algorithms.md)
     - [10.3. Customizing Operations](docs/chapter_10_generic_algorithms/10.3.customizing_operations.md)
-- Part Ⅱ: The C++ Library
-  - Associative Containers
+  - Chapter 11. Associative Containers
     - [map](docs/stl-map.md)
 - Part Ⅲ: Tools for Class Authors
   - Chapter 15. Object-Oriented Programming

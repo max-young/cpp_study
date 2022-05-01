@@ -1,7 +1,6 @@
 <!-- TOC -->
 
 - [文件结构](#文件结构)
-- [Function](#function)
 - [Tips](#tips)
 
 <!-- /TOC -->
@@ -11,13 +10,6 @@
 - .hpp .h
   都是头文件, 可以定义命名空间, 将一些常量等放在头文件里  
   .h兼容c, 如果只有C++, 用.hpp即可
-
-### Function
-
-- inline函数  
-  表示调用此函数时相当于inline函数代码在调用的代码块里, 而不是要复制参数再单独执行此函数, 从而增加内存消耗  
-  适用于比较简单的函数  
-  代码示例: <a href="../code/inlinefunction.cpp">inline function</a>
 
 <a id="markdown-语法" name="语法"></a>
 ### Tips
