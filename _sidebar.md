@@ -6,12 +6,10 @@
     - [2.1. Primitive Built-in Types原始内置类型](docs/chapter_2_viariables_and_basic_types/2.1.primitive_built_in_types.md)
     - [2.3. Compound Types复合类型](docs/chapter_2_viariables_and_basic_types/2.3.compound_types(reference_and_pointer).md)
     - [2.4. const Qualifier限定符](docs/chapter_2_viariables_and_basic_types/2.4.const_qualifier.md)
-    - [pointer and reference as args](docs/pointer_and_reference_as_args.md)
-    - [grammar](docs/grammar.md)
-    - [preprocessor](docs/preprocessor.md)
+    - [2.6. Defining Our Own Data Structures](docs/chapter_2_viariables_and_basic_types/2.6.defining_our_own_data_structures.md)
   - Chapter 3. Strings, Vectors, and Arrays
     - [3.1. Namespace using Declarations](docs/chapter_3_strings_vectors_and_arrays/3.1.namespace_using_declarations.md)
-    - [3.2. Library string Type](docs/chapter_3_strings_vectors_and_arrays/3.2.字符和字符串.md)
+    - [3.2. Library string Type](docs/chapter_3_strings_vectors_and_arrays/3.2.library_string_type.md)
     - [3.3. Library vector Type](docs/chapter_3_strings_vectors_and_arrays/3.3.library_vector_type.md)
     - [3.4. Introducing Iterators](docs/chapter_3_strings_vectors_and_arrays/3.4.introducing_iterators.md)
     - [3.5. Arrays](docs/chapter_3_strings_vectors_and_arrays/3.5.arrays.md)
@@ -27,6 +25,8 @@
     - [constexpr constructor](docs/chapter_7_classes/constexpr_constructor.md)
     - [destructor](docs/chapter_7_classes/destructor.md)
     - [Static Class Members](docs/chapter_7_classes/static_class_members.md)
+  - Chapter 8. The IO Library
+    - [8.3. string Streams](docs/chapter_8_the_io_library/8.3.string_streams.md)
 - Part Ⅱ: The C++ Library
   - Chapter 9. Sequential Containers
     - [9.2. Container Library Overview](docs/chapter_9_sequential_containers/9.2.container_library_overview.md)
