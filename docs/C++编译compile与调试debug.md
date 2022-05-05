@@ -4,6 +4,7 @@
   - [compile process](#compile-process)
   - [execute compile](#execute-compile)
 - [调试debug](#调试debug)
+- [Project Structure](#project-structure)
 - [CMAKE](#cmake)
   - [编译流程](#编译流程)
   - [CMAKE语法](#cmake语法)
@@ -122,6 +123,10 @@ $ clang++ ./*.cpp -o main
 用命令行debug是没问题的   
 后来加上日志后, 在debug console里显示卡在request variable这一步  
 github上有人给vscode提issue了, 说能不能根据用户的需要来显示变量, 如同命令行p一样
+
+### Project Structure
+
+<https://medium.com/swlh/c-project-structure-for-cmake-67d60135f6f5>
 
 ### CMAKE
 

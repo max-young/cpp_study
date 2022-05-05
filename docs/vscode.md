@@ -10,7 +10,7 @@
 
 ### 配置
 
-- 打开某文件夹, 在文件夹里会自动创建.vscode路径, 下面有配置文件
+- 在project路径下创建.vscode文件夹
 
 - 编译器配置  
 
@@ -19,6 +19,7 @@
 - 自动联想补全配置  
 
   shift + commnad + p, 找到C/C++: Edit Configurations (UI) , 配置Compiler path为/usr/bin/clang++, 配置IntelliSense mode为macos-clang-x64, (用户可根据实际情况配置), 这样在.vscode下会多一个c_cpp_properties.json的配置文件
+
 以上配置完之后就完成了一个基本的C++开发环境
 
 - debug配置  
