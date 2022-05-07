@@ -1,13 +1,12 @@
-## 配置
+<!-- TOC -->
 
-### 参考资料
+- [配置](#配置)
+- [问题汇总](#问题汇总)
+- [参考资料](#参考资料)
 
-<https://code.visualstudio.com/docs/cpp/config-clang-mac>
+<!-- /TOC -->
 
-<https://code.visualstudio.com/docs/cpp/configure-intellisense-crosscompilation>
-
-<https://www.youtube.com/watch?v=-erXR6k9TeE>
-
+<a id="markdown-配置" name="配置"></a>
 ### 配置
 
 - 在project路径下创建.vscode文件夹
@@ -42,6 +41,7 @@
   }
   ```
 
+<a id="markdown-问题汇总" name="问题汇总"></a>
 ### 问题汇总
 
 - include error detected
@@ -64,3 +64,12 @@
     没有安装的话, 需要手动安装, 自行搜索  
     比如`#include <opencv2/opencv.hpp>`提示添加路径为:  
     `/usr/local/Cellar/opencv/4.5.3_2/include/opencv4/`(注意最后的分隔符/)
+
+<a id="markdown-参考资料" name="参考资料"></a>
+### 参考资料
+
+<https://code.visualstudio.com/docs/cpp/config-clang-mac>
+
+<https://code.visualstudio.com/docs/cpp/configure-intellisense-crosscompilation>
+
+<https://www.youtube.com/watch?v=-erXR6k9TeE>

@@ -21,10 +21,10 @@
     - [6.5. Features for Specialized Uses](docs/chapter_6_functions/6.5.features_for_specialized_uses.md)
     - [Local static Objects](docs/chapter_6_functions/local_static_objects.md)
   - Chapter 7. Classes
-    - [const member function](docs/chapter_7_classes/const_member_function.md)
+    - [7.1. Defining Abstract Data Types](docs/chapter_7_classes/7.1.defining_abstract_data_types.md)
     - [constexpr constructor](docs/chapter_7_classes/constexpr_constructor.md)
     - [destructor](docs/chapter_7_classes/destructor.md)
-    - [Static Class Members](docs/chapter_7_classes/static_class_members.md)
+    - [7.6. Static Class Members](docs/chapter_7_classes/7.6.static_class_members.md)
   - Chapter 8. The IO Library
     - [8.3. string Streams](docs/chapter_8_the_io_library/8.3.string_streams.md)
 - Part Ⅱ: The C++ Library
@@ -36,6 +36,8 @@
     - [10.3. Customizing Operations](docs/chapter_10_generic_algorithms/10.3.customizing_operations.md)
   - Chapter 11. Associative Containers
     - [map](docs/stl-map.md)
+  - Chapter 12. Dynamic Memory
+    - [12.1. Dynamic Memory and Smart Pointers](docs/chapter_12_dynamic_memory/12.1.dynamic_memory_and_smart_pointers.md)
 - Part Ⅲ: Tools for Class Authors
   - Chapter 15. Object-Oriented Programming
     - [15.1. OOP: An Overview](docs/15.1.oop_an_overview.md)
