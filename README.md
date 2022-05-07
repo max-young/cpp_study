@@ -14,6 +14,7 @@
 **Others**
 
 - [Geeks for Geeks](https://www.geeksforgeeks.org/c-plus-plus/)
+- [Mooophy/Cpp-Primer](https://github.com/Mooophy/Cpp-Primer)
 
 #### 二. Description
 

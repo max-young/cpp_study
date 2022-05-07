@@ -26,6 +26,7 @@
     - [destructor](docs/chapter_7_classes/destructor.md)
     - [7.6. Static Class Members](docs/chapter_7_classes/7.6.static_class_members.md)
   - Chapter 8. The IO Library
+    - [8.2. File Input and Output](docs/chapter_8_the_io_library/8.2.file_input_and_output.md)
     - [8.3. string Streams](docs/chapter_8_the_io_library/8.3.string_streams.md)
 - Part Ⅱ: The C++ Library
   - Chapter 9. Sequential Containers
