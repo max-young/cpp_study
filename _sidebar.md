@@ -1,4 +1,5 @@
 - Chapter 1. Getting Started
+  - [1.2. A First Look at Input/Output](docs/chapter_1_getting_started/1.2.a_first_look_at_input_output.md)
   - [vscode config](docs/vscode.md)
   - [compile and debug](docs/C++编译compile与调试debug.md)
 - Part Ⅰ: The Basics
@@ -26,6 +27,7 @@
     - [destructor](docs/chapter_7_classes/destructor.md)
     - [7.6. Static Class Members](docs/chapter_7_classes/7.6.static_class_members.md)
   - Chapter 8. The IO Library
+    - [8.1. The IO Classes](docs/chapter_8_the_io_library/8.1.the_io_classes.md)
     - [8.2. File Input and Output](docs/chapter_8_the_io_library/8.2.file_input_and_output.md)
     - [8.3. string Streams](docs/chapter_8_the_io_library/8.3.string_streams.md)
 - Part Ⅱ: The C++ Library
