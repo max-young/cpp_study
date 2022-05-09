@@ -86,5 +86,9 @@
     "cinttypes": "cpp",
     "__bits": "cpp",
     "stack": "cpp"
-  }
+  },
+  "markdown-toc.updateOnSave": false,
+  "markdown-toc.depthFrom": 2,
+  "markdown.extension.toc.updateOnSave": false,
+  "markdown.extension.toc.levels": "2..6"
 }

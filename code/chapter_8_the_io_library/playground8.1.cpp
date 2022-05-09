@@ -7,7 +7,18 @@ int main()
   int ival;
   cin >> ival;
 
-  cout << ival << endl;
+  if (cin.fail())
+  {
+    cout << "Input failed" << endl;
+  }
+  cin >> ival;
+  cin.clear();
+  if (cin.good())
+  {
+    cout << "Input good" << endl;
+    cin >> ival;
+    cout << ival << endl;
+  }
 
   return 0;
 }
