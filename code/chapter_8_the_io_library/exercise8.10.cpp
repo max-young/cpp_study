@@ -12,6 +12,7 @@ using std::endl;
 using std::vector;
 using std::string;
 using std::istringstream;
+using std::ifstream;
 
 int main()
 {
