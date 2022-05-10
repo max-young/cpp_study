@@ -10,8 +10,15 @@ using std::ostringstream;
 
 int main()
 {
-  ifstream ifs("resources/data.txt");
+  ifstream ifs;
+  ifs.open("resources/data.txt");
   ostringstream oss;
+  oss << ifs.rdbuf();
+  cout << oss.str();
+
+  ifs.close();
+  ifs.open("resources/data1.txt");
+  oss.clear();
   oss << ifs.rdbuf();
   cout << oss.str();
 }
