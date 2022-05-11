@@ -182,6 +182,9 @@ find_package(OpenCV REQUIRED)
 # 定义变量CMAKE_CXX_STANDARD的值为17
 set(CMAKE_CXX_STANDARD 17)
 
+# 编译可进行调试的文件
+set(CMAKE_BUILD_TYPE Debug)
+
 # 头文件搜索路径: include是相对路径  
 include_directories(/usr/local/include include)
 
