@@ -34,6 +34,7 @@
 - Part Ⅱ: The C++ Library
   - Chapter 9. Sequential Containers
     - [9.2. Container Library Overview](docs/chapter_9_sequential_containers/9.2.container_library_overview.md)
+    - [9.3. Sequential Container Operations](docs/chapter_9_sequential_containers/9.3.sequential_container_operations.md)
   - Chapter 10. Generic Algorithms通用算法
     - [10.1. Overview](docs/chapter_10_generic_algorithms/10.1.overview.md)
     - [10.2. A First Look at the Algorithms](docs/chapter_10_generic_algorithms/10.2.a_first_look_at_the_algorithms.md)
