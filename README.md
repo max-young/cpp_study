@@ -37,8 +37,12 @@
 **Books**
 - [C++ Primer](https://book.douban.com/subject/10505113/)
 - [C++ Concurrency in Action](https://book.douban.com/subject/27036085/)
+- [C++ Coding Standards](https://book.douban.com/subject/1459007/)
+- [The Elements of C++ Style](https://book.douban.com/subject/1863985/)
 
 **Others**
 
 - [Geeks for Geeks](https://www.geeksforgeeks.org/c-plus-plus/)
 - [Mooophy/Cpp-Primer](https://github.com/Mooophy/Cpp-Primer)
+- [isocpp](https://isocpp.org/wiki/faq/coding-standards)
+- [stackoverflow](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list/388282#388282)

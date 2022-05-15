@@ -3,6 +3,7 @@
   - [1.4. Flow of Control](docs/chapter_1_getting_started/1.4.flow_of_control.md)
   - [vscode config](docs/vscode.md)
   - [compile and debug](docs/chapter_1_getting_started/C++编译compile与调试debug.md)
+  - [code style](docs/chapter_1_getting_started/code_style.md)
 - Part Ⅰ: The Basics
   - Chapter 2. Variables and Basic Types
     - [2.1. Primitive Built-in Types原始内置类型](docs/chapter_2_viariables_and_basic_types/2.1.primitive_built_in_types.md)
@@ -45,7 +46,7 @@
     - [12.1. Dynamic Memory and Smart Pointers](docs/chapter_12_dynamic_memory/12.1.dynamic_memory_and_smart_pointers.md)
 - Part Ⅲ: Tools for Class Authors
   - Chapter 15. Object-Oriented Programming
-    - [15.1. OOP: An Overview](docs/15.1.oop_an_overview.md)
-    - [15.3. Virtual Functions](docs/virtual_functions.md)
+    - [15.1. OOP: An Overview](docs/chapter_15_object_oriented_programming/15.1.oop_an_overview.md)
+    - [15.3. Virtual Functions](docs/chapter_15_object_oriented_programming/15.3.virtual_functions.md)
 - Part Ⅳ: Advanced Topics
   - [Concurrency](docs/concurrency.md)
