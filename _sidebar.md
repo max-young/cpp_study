@@ -47,6 +47,7 @@
 - Part Ⅲ: Tools for Class Authors
   - Chapter 15. Object-Oriented Programming
     - [15.1. OOP: An Overview](docs/chapter_15_object_oriented_programming/15.1.oop_an_overview.md)
+    - [15.2. Defining Base and Derived Classes](docs/chapter_15_object_oriented_programming/15.2.defining_base_and_derived_classes.md)
     - [15.3. Virtual Functions](docs/chapter_15_object_oriented_programming/15.3.virtual_functions.md)
 - Part Ⅳ: Advanced Topics
   - [Concurrency](docs/concurrency.md)
