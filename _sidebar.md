@@ -9,6 +9,7 @@
     - [2.1. Primitive Built-in Types原始内置类型](docs/chapter_2_viariables_and_basic_types/2.1.primitive_built_in_types.md)
     - [2.3. Compound Types复合类型](docs/chapter_2_viariables_and_basic_types/2.3.compound_types(reference_and_pointer).md)
     - [2.4. const Qualifier限定符](docs/chapter_2_viariables_and_basic_types/2.4.const_qualifier.md)
+    - [2.5. Dealing with Types](docs/chapter_2_viariables_and_basic_types/2.5.dealing_with_types.md)
     - [2.6. Defining Our Own Data Structures](docs/chapter_2_viariables_and_basic_types/2.6.defining_our_own_data_structures.md)
   - Chapter 3. Strings, Vectors, and Arrays
     - [3.1. Namespace using Declarations](docs/chapter_3_strings_vectors_and_arrays/3.1.namespace_using_declarations.md)
@@ -25,6 +26,8 @@
     - [Local static Objects](docs/chapter_6_functions/local_static_objects.md)
   - Chapter 7. Classes
     - [7.1. Defining Abstract Data Types](docs/chapter_7_classes/7.1.defining_abstract_data_types.md)
+    - [7.2. Access Control and Encapsulation](docs/chapter_7_classes/7.2.access_control_and_encapsulation.md)
+    - [7.3. Additional Class Features](docs/chapter_7_classes/7.3.additional_class_features.md)
     - [constexpr constructor](docs/chapter_7_classes/constexpr_constructor.md)
     - [destructor](docs/chapter_7_classes/destructor.md)
     - [7.6. Static Class Members](docs/chapter_7_classes/7.6.static_class_members.md)
@@ -49,5 +52,6 @@
     - [15.1. OOP: An Overview](docs/chapter_15_object_oriented_programming/15.1.oop_an_overview.md)
     - [15.2. Defining Base and Derived Classes](docs/chapter_15_object_oriented_programming/15.2.defining_base_and_derived_classes.md)
     - [15.3. Virtual Functions](docs/chapter_15_object_oriented_programming/15.3.virtual_functions.md)
+    - [15.5. Access Control and Inheritance](docs/chapter_15_object_oriented_programming/15.5.access_control_and_inheritance.md)
 - Part Ⅳ: Advanced Topics
   - [Concurrency](docs/concurrency.md)
