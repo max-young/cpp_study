@@ -1,3 +1,7 @@
+// Exercise 15.7: Define a class that implements a limited discount strategy,
+// which applies a discount to books purchased up to a given limit.
+// If the number of copies exceeds that limit, the normal price applies to those purchased beyond the limit.
+
 #include <string>
 #include <iostream>
 
@@ -24,13 +28,13 @@ class BulkQuote : public Quote
 {
 public:
   BulkQuote() = default;
-  BulkQuote(const string &bookNo, double price, size_t minQty, double discount) : Quote(bookNo, price), minQty_(minQty), discount_(discount){};
-  double getPrice(size_t n) const override { return n * price_ * (n >= minQty_ ? (1 - discount_) : 1); };
+  BulkQuote(const string &bookNo, double price, size_t minQty, double discountPrice) : Quote(bookNo, price), minQty_(minQty), discountPrice_(discountPrice){};
+  double getPrice(size_t n) const override { return n * (n >= minQty_ ? discountPrice_ : price_); };
   ~BulkQuote() override = default;
 
 private:
   size_t minQty_ = 0;
-  double discount_ = 0.0;
+  double discountPrice_ = 0.0;
 };
 
 double printTotal(std::ostream &os, const Quote &item, size_t n)
@@ -43,7 +47,7 @@ double printTotal(std::ostream &os, const Quote &item, size_t n)
 int main()
 {
   Quote q("123", 10);
-  BulkQuote bq("456", 10, 10, 0.5);
+  BulkQuote bq("456", 10, 10, 8);
   Quote *pq = &bq;     // ok: base class pointer to derived class object
   // BulkQuote *pbq = &q; // error: derived class pointer cannot be assigned to base class
   Quote &rq = bq;      // ok: base class reference to derived class object
