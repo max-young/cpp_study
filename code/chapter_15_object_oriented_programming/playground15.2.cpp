@@ -14,7 +14,7 @@ public:
   virtual ~Quote() = default; // virtual destructor通常需要定义, 尽管是default
 
 private:
-  string bookNo_ = "";
+  string bookNo_;
 
 protected:
   double price_ = 0.0;
