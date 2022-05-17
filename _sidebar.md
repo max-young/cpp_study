@@ -18,10 +18,12 @@
     - [3.4. Introducing Iterators](docs/chapter_3_strings_vectors_and_arrays/3.4.introducing_iterators.md)
     - [3.5. Arrays](docs/chapter_3_strings_vectors_and_arrays/3.5.arrays.md)
   - Chapter 4. Expressions
-    - [4.1. Fundamentals](docs/chapter_4_expressions/fundamentals.md)
-    - [Type Conversions](docs/chapter_4_expressions/type_conversions.md)
+    - [4.1. Fundamentals](docs/chapter_4_expressions/4.1.fundamentals.md)
+    - [4.11. Type Conversions](docs/chapter_4_expressions/4.11.type_conversions.md)
     - [Increment and Decrement Operators](docs/increment_and_decrement_operators.md)
   - Chapter 6. Functions
+    - [6.1. Function Basics](docs/chapter_6_functions/6.1.function_basics.md)
+    - [6.4. Overloaded Functions](docs/chapter_6_functions/6.4.overloaded_functions.md)
     - [6.5. Features for Specialized Uses](docs/chapter_6_functions/6.5.features_for_specialized_uses.md)
     - [Local static Objects](docs/chapter_6_functions/local_static_objects.md)
   - Chapter 7. Classes
