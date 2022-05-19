@@ -56,4 +56,8 @@
     - [15.3. Virtual Functions](docs/chapter_15_object_oriented_programming/15.3.virtual_functions.md)
     - [15.5. Access Control and Inheritance](docs/chapter_15_object_oriented_programming/15.5.access_control_and_inheritance.md)
 - Part Ⅳ: Advanced Topics
+  - Chapter 17. Specialized Library Facilities
+    - [17.1. The tuple Type](docs/chapter_17_specialized_library_facilities/17.1.the_tuple_type.md)
+  - Chapter 19. Specialized Tools and Techniques
+    - [19.3. Enumerations](docs/chapter_19_specialized_tools_and_techniques/19.3.enumerations.md)
   - [Concurrency](docs/concurrency.md)
