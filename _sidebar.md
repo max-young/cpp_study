@@ -19,6 +19,7 @@
     - [3.5. Arrays](docs/chapter_3_strings_vectors_and_arrays/3.5.arrays.md)
   - Chapter 4. Expressions
     - [4.1. Fundamentals](docs/chapter_4_expressions/4.1.fundamentals.md)
+    - [4.2. Arithmetic Operators](docs/chapter_4_expressions/4.2.arithmetic_operators.md)
     - [4.11. Type Conversions](docs/chapter_4_expressions/4.11.type_conversions.md)
     - [Increment and Decrement Operators](docs/increment_and_decrement_operators.md)
   - Chapter 6. Functions
@@ -46,7 +47,7 @@
     - [10.2. A First Look at the Algorithms](docs/chapter_10_generic_algorithms/10.2.a_first_look_at_the_algorithms.md)
     - [10.3. Customizing Operations](docs/chapter_10_generic_algorithms/10.3.customizing_operations.md)
   - Chapter 11. Associative Containers
-    - [map](docs/stl-map.md)
+    - [11.1. Using an Associative Container](docs/chapter_11_associative_containers/11.1.using_an_associative_container.md)
   - Chapter 12. Dynamic Memory
     - [12.1. Dynamic Memory and Smart Pointers](docs/chapter_12_dynamic_memory/12.1.dynamic_memory_and_smart_pointers.md)
 - Part Ⅲ: Tools for Class Authors
@@ -58,6 +59,7 @@
 - Part Ⅳ: Advanced Topics
   - Chapter 17. Specialized Library Facilities
     - [17.1. The tuple Type](docs/chapter_17_specialized_library_facilities/17.1.the_tuple_type.md)
+    - [17.4. Random Numbers](docs/chapter_17_specialized_library_facilities/17.4.random_numbers.md)
   - Chapter 19. Specialized Tools and Techniques
     - [19.3. Enumerations](docs/chapter_19_specialized_tools_and_techniques/19.3.enumerations.md)
   - [Concurrency](docs/concurrency.md)
