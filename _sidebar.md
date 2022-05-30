@@ -1,7 +1,7 @@
 - Chapter 1. Getting Started
   - [1.2. A First Look at Input/Output](docs/chapter_1_getting_started/1.2.a_first_look_at_input_output.md)
   - [1.4. Flow of Control](docs/chapter_1_getting_started/1.4.flow_of_control.md)
-  - [vscode config](docs/vscode.md)
+  - [vscode config](docs/chapter_1_getting_started/vscode.md)
   - [compile and debug](docs/chapter_1_getting_started/C++编译compile与调试debug.md)
   - [code style](docs/chapter_1_getting_started/code_style.md)
 - Part Ⅰ: The Basics
@@ -64,4 +64,8 @@
     - [17.4. Random Numbers](docs/chapter_17_specialized_library_facilities/17.4.random_numbers.md)
   - Chapter 19. Specialized Tools and Techniques
     - [19.3. Enumerations](docs/chapter_19_specialized_tools_and_techniques/19.3.enumerations.md)
-  - [Concurrency](docs/concurrency.md)
+- Part Ⅴ: Concurrency in Action
+  - Chapter 1. Hello,  world of concurrency in C++
+    - [1.4 Getting started](docs/concurrency_in_action/1.4getting_started.md)
+  - Chapter 4. Synchronizing concurrent operations
+    - [4.1 Waiting for an event or other condition](docs/concurrency_in_action/4.1waiting_for_an_event_or_other_condition.md)
