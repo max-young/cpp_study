@@ -20,8 +20,8 @@
   - Chapter 4. Expressions
     - [4.1. Fundamentals](docs/chapter_4_expressions/4.1.fundamentals.md)
     - [4.2. Arithmetic Operators](docs/chapter_4_expressions/4.2.arithmetic_operators.md)
+    - [4.5. Increment and Decrement Operators](docs/chapter_4_expressions/4.5.increment_and_decrement_operators.md)
     - [4.11. Type Conversions](docs/chapter_4_expressions/4.11.type_conversions.md)
-    - [Increment and Decrement Operators](docs/increment_and_decrement_operators.md)
   - Chapter 6. Functions
     - [6.1. Function Basics](docs/chapter_6_functions/6.1.function_basics.md)
     - [6.4. Overloaded Functions](docs/chapter_6_functions/6.4.overloaded_functions.md)
@@ -50,6 +50,8 @@
     - [11.1. Using an Associative Container](docs/chapter_11_associative_containers/11.1.using_an_associative_container.md)
   - Chapter 12. Dynamic Memory
     - [12.1. Dynamic Memory and Smart Pointers](docs/chapter_12_dynamic_memory/12.1.dynamic_memory_and_smart_pointers.md)
+  - Chapter 13. Copy Control
+    - [13.6. Moving Objects](docs/chapter_13_copy_control/13.6.moving_objects.md)
 - Part Ⅲ: Tools for Class Authors
   - Chapter 15. Object-Oriented Programming
     - [15.1. OOP: An Overview](docs/chapter_15_object_oriented_programming/15.1.oop_an_overview.md)
