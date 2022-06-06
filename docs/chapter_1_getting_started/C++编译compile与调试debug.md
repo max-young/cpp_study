@@ -12,6 +12,10 @@
 
 <!-- /TOC -->
 
+**The main difference between C and C++ is:**  
+C is procedual programming language  
+C++ support both procedual programming and object-oriented programming.  
+
 <a id="markdown-compile" name="compile"></a>
 ### compile
 
