@@ -40,8 +40,10 @@
     - [8.3. string Streams](docs/chapter_8_the_io_library/8.3.string_streams.md)
 - Part Ⅱ: The C++ Library
   - Chapter 9. Sequential Containers
+    - [9.1. Overview of the Sequential Containers](docs/chapter_9_sequential_containers/9.1.overview_of_the_sequential_containers.md)
     - [9.2. Container Library Overview](docs/chapter_9_sequential_containers/9.2.container_library_overview.md)
     - [9.3. Sequential Container Operations](docs/chapter_9_sequential_containers/9.3.sequential_container_operations.md)
+    - [9.6. Container Adaptors](docs/chapter_9_sequential_containers/9.6.container_adaptors.md)
   - Chapter 10. Generic Algorithms通用算法
     - [10.1. Overview](docs/chapter_10_generic_algorithms/10.1.overview.md)
     - [10.2. A First Look at the Algorithms](docs/chapter_10_generic_algorithms/10.2.a_first_look_at_the_algorithms.md)
