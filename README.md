@@ -18,6 +18,7 @@
 #### References
 
 **Online Course**
+- [C++面向对象高级编程（侯捷）](https://www.youtube.com/watch?v=JItpuOsm35U&list=PL-X74YXt4LVZ137kKM5dNfCIC4tsScerb&index=3)
 - [C++语言程序设计基础](https://www.xuetangx.com/course/THU08091000247/10322314)
 
 **Books**
@@ -32,4 +33,5 @@
 - [Mooophy/Cpp-Primer](https://github.com/Mooophy/Cpp-Primer)
 - [isocpp](https://isocpp.org/wiki/faq/coding-standards)
 - [stackoverflow](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list/388282#388282)
+- [cppquiz](https://cppquiz.org)]
 
