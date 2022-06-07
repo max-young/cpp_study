@@ -23,8 +23,8 @@
 
 **Books**
 - [C++ Primer](https://book.douban.com/subject/10505113/)
-- [Effective C++, Third Edition](https://book.douban.com/subject/30126960/)
-- [The C++ Standard Library, 2nd Edition](https://book.douban.com/subject/10440485/)
+- [Effective C++ Third Edition](https://book.douban.com/subject/30126960/)
+- [The C++ Standard Library 2nd Edition](https://book.douban.com/subject/10440485/)
 - [STL源码剖析](https://book.douban.com/subject/1110934/)
 - [C++ Concurrency in Action](https://book.douban.com/subject/27036085/)
 - [C++ Coding Standards](https://book.douban.com/subject/1459007/)
