@@ -55,7 +55,7 @@
 - Part Ⅲ: Tools for Class Authors
   - Chapter 13. Copy Control
     - [13.6. Moving Objects](docs/chapter_13_copy_control/13.6.moving_objects.md)
-  - Chapter 14. [Overloaded Operations and Conversion
+  - Chapter 14. Overloaded Operations and Conversion
     - [14.1. Basic Concepts](docs/chapter_14_overloaded_operations_and_conversion/14.1.basic_concepts.md)
     - [14.8. Function-Call Operator](docs/chapter_14_overloaded_operations_and_conversion/14.8.function-call_operator.md)
   - Chapter 15. Object-Oriented Programming
