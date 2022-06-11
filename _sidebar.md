@@ -65,6 +65,7 @@
     - [17.1. The tuple Type](docs/chapter_17_specialized_library_facilities/17.1.the_tuple_type.md)
     - [17.4. Random Numbers](docs/chapter_17_specialized_library_facilities/17.4.random_numbers.md)
   - Chapter 19. Specialized Tools and Techniques
+    - [19.2. Run-Time Type Identification](docs/chapter_19_specialized_tools_and_techniques/19.2.run-time_type_identification.md)
     - [19.3. Enumerations](docs/chapter_19_specialized_tools_and_techniques/19.3.enumerations.md)
 - Part Ⅴ: Concurrency in Action
   - Chapter 1. Hello,  world of concurrency in C++
