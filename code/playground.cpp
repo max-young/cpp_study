@@ -1,31 +1,25 @@
 #include <string>
+#include <vector>
 #include <iostream>
 
 using std::cout;
 using std::endl;
 using std::string;
+using std::vector;
 
-void copy(const string &a, string &b)
-{
-  cout << "copy via reference..." << endl;
-  b = a;
-}
-
-void copy(const string &a, string *b)
-{
-  cout << "copy via pointer..." << endl;
-  *b = a;
-}
 
 int main()
 {
-  string a = "hello, world";
-  string b;
-  cout << "string a is " << a << endl;
-  cout << "string b is " << b << endl;
-  copy(a, &b);
-  cout << "string a is " << a << endl;
-  cout << "string b is " << b << endl;
+  vector<int> v = {1, 2, 3, 4, 5};
+  int begin = 0, end = v.size(), middle = (end - begin) / 2;
+  cout << begin << " " << end << " " << middle << endl;
+  for_each(v.cbegin(), v.cend(), [](auto i){cout << i << " ";});
+  cout << endl;
+  for_each(v.begin() + begin, v.begin() + middle, [](auto i){cout << i << " ";});
+  cout << endl;
+  for_each(v.begin() + middle, v.begin() + end, [](auto i){cout << i << " ";});
+  cout << endl;
+
 
   return 0;
 }
