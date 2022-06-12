@@ -21,6 +21,7 @@
     - [4.1. Fundamentals](docs/chapter_4_expressions/4.1.fundamentals.md)
     - [4.2. Arithmetic Operators](docs/chapter_4_expressions/4.2.arithmetic_operators.md)
     - [4.5. Increment and Decrement Operators](docs/chapter_4_expressions/4.5.increment_and_decrement_operators.md)
+    - [4.8. The Bitwise Operators](docs/chapter_4_expressions/4.8.the_bitwise_operators.md)
     - [4.11. Type Conversions](docs/chapter_4_expressions/4.11.type_conversions.md)
   - Chapter 6. Functions
     - [6.1. Function Basics](docs/chapter_6_functions/6.1.function_basics.md)
