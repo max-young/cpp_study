@@ -1,36 +1,13 @@
-#include <string>
-#include <vector>
-#include <iostream>
+def insertSpaceToString(myStr, spaceList):
+    result = []
+    index = 0
+    for i in myStr:
+        if index in spaceList:
+            result.append(' ')
+        result.append(i)
+        index += 1
+    return "".join(result)
 
-using std::cout;
-using std::endl;
-using std::string;
-using std::vector;
-
-class Base
-{
-public:
-  int plus(int a, int b) { return a + b; };
-};
-
-class Derived : public Base
-{
-public:
-  int plus(int a, int b) { return a + b + 1; };
-};
-
-void myFunc(Base &b)
-{
-  cout << b.plus(1, 1) << endl;
-}
-
-int main()
-{
-  Base b;
-  Derived d;
-  Base &br = d;
-  myFunc(b);
-  myFunc(d);
-  myFunc(br);
-  return 0;
-}
+myStr = "icodeinpython"
+spaceList = [1, 5, 7, 9]
+print(insertSpaceToString(myStr, spaceList))

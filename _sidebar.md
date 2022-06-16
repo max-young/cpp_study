@@ -55,6 +55,7 @@
     - [12.1. Dynamic Memory and Smart Pointers](docs/chapter_12_dynamic_memory/12.1.dynamic_memory_and_smart_pointers.md)
 - Part Ⅲ: Tools for Class Authors
   - Chapter 13. Copy Control
+    - [13.1. Copy Control](docs/chapter_13_copy_control/13.1.copy_control.md)
     - [13.6. Moving Objects](docs/chapter_13_copy_control/13.6.moving_objects.md)
   - Chapter 14. Overloaded Operations and Conversion
     - [14.1. Basic Concepts](docs/chapter_14_overloaded_operations_and_conversion/14.1.basic_concepts.md)
