@@ -7,19 +7,30 @@ using std::endl;
 using std::string;
 using std::vector;
 
+class Base
+{
+public:
+  int plus(int a, int b) { return a + b; };
+};
+
+class Derived : public Base
+{
+public:
+  int plus(int a, int b) { return a + b + 1; };
+};
+
+void myFunc(Base &b)
+{
+  cout << b.plus(1, 1) << endl;
+}
 
 int main()
 {
-  vector<int> v = {1, 2, 3, 4, 5};
-  int begin = 0, end = v.size(), middle = (end - begin) / 2;
-  cout << begin << " " << end << " " << middle << endl;
-  for_each(v.cbegin(), v.cend(), [](auto i){cout << i << " ";});
-  cout << endl;
-  for_each(v.begin() + begin, v.begin() + middle, [](auto i){cout << i << " ";});
-  cout << endl;
-  for_each(v.begin() + middle, v.begin() + end, [](auto i){cout << i << " ";});
-  cout << endl;
-
-
+  Base b;
+  Derived d;
+  Base &br = d;
+  myFunc(b);
+  myFunc(d);
+  myFunc(br);
   return 0;
 }
