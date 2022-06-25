@@ -72,6 +72,7 @@
   - Chapter 19. Specialized Tools and Techniques
     - [19.2. Run-Time Type Identification](docs/chapter_19_specialized_tools_and_techniques/19.2.run-time_type_identification.md)
     - [19.3. Enumerations](docs/chapter_19_specialized_tools_and_techniques/19.3.enumerations.md)
+    - [19.6. union: A Space-Saving Class](docs/chapter_19_specialized_tools_and_techniques/19.6.union_a_space-saving_class.md)
 - Part Ⅴ: Concurrency in Action
   - Chapter 1. Hello,  world of concurrency in C++
     - [1.4 Getting started](docs/concurrency_in_action/1.4getting_started.md)
