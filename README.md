@@ -2,9 +2,9 @@
 
 > hello, I'm <a href="https://maxyoung.fun/">Max Young</a>
 
-#### Description
+这是我的C++笔记, Github Page页面请访问: <https://maxyoung.fun/cpp_study/#/>
 
-这是我的C++笔记, 学习和工作中遇到问题查阅相关书籍和资料, 按照自己的理解写下来, 然后也会有代码的验证和练习. 好记性不如烂笔头.
+我在学习和工作中遇到问题查阅相关书籍和资料, 按照自己的理解写下来, 然后也会有代码的验证和练习. 好记性不如烂笔头.
 
 文档结构按照[C++ Primer](https://book.douban.com/subject/10505113/)的框架建立.  
 
