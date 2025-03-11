@@ -1,8 +1,7 @@
-<!-- TOC -->
-
 - [compile](#compile)
   - [compile process](#compile-process)
   - [execute compile](#execute-compile)
+  - [compile in VSCode](#compile-in-vscode)
 - [debug](#debug)
 - [Project Structure](#project-structure)
 - [CMAKE](#cmake)
@@ -10,16 +9,12 @@
   - [CMAKE语法](#cmake语法)
 - [references](#references)
 
-<!-- /TOC -->
-
 **The main difference between C and C++ is:**  
 C is procedual programming language  
 C++ support both procedual programming and object-oriented programming.  
 
-<a id="markdown-compile" name="compile"></a>
 ### compile
 
-<a id="markdown-compile-process" name="compile-process"></a>
 #### compile process
 
 <img src="_images/compile_process.webp" width=70%>
@@ -41,7 +36,6 @@ there are 4 steps:
 References:  
 <https://riptutorial.com/cplusplus/example/26378/the-cplusplus-compilation-process>
 
-<a id="markdown-execute-compile" name="execute-compile"></a>
 #### execute compile
 
 编译器有g++, clang++, 分别是gcc和llvm project支持c++的编译器  
@@ -98,7 +92,10 @@ $ clang++ ./*.cpp -o main
 - -O2
   编译时会优化代码. 这可能会导致debug是set breakpoint和你看到的代码不一致
 
-<a id="markdown-debug" name="debug"></a>
+#### compile in VSCode
+
+In mac, the short cut is `cmd + shift + b`, then select `C/C++: clang++ build active file`
+
 ### debug
 
 和编译一样, gcc的调试工具是gdb, LLVM的调试工具是lldb, 使用方法差不多  
@@ -131,17 +128,14 @@ $ clang++ ./*.cpp -o main
 后来加上日志后, 在debug console里显示卡在request variable这一步  
 github上有人给vscode提issue了, 说能不能根据用户的需要来显示变量, 如同命令行p一样
 
-<a id="markdown-project-structure" name="project-structure"></a>
 ### Project Structure
 
 <https://medium.com/swlh/c-project-structure-for-cmake-67d60135f6f5>
 
-<a id="markdown-cmake" name="cmake"></a>
 ### CMAKE
 
 CMAKE是跨平台的编译工具  
 
-<a id="markdown-编译流程" name="编译流程"></a>
 #### compile process
 
 1. 在项目顶层目录下新建一个CMakeLists.txt的文件  
@@ -159,7 +153,6 @@ CMAKE是跨平台的编译工具
   在build目录下就会多出来Makefile等文件  
 4. 编译: `make`  
 
-<a id="markdown-cmake语法" name="cmake语法"></a>
 #### CMAKE语法  
 
 这里假设文件目录是这样的:  
@@ -198,7 +191,6 @@ add_executable(Rasterizer main.cpp src/rasterizer.cpp src/Triangle.cpp)
 target_link_libraries(Rasterizer ${OpenCV_LIBRARIES})
 ```
 
-<a id="markdown-references" name="references"></a>
 ### references
 
 上面是一些tips, 要系统的搞清楚开发环境, 看这个课程: [基于VSCode和CMake实现C/C++开发 \| Linux篇](https://www.bilibili.com/video/BV1fy4y1b7TC?p=20&spm_id_from=pageDriver)
